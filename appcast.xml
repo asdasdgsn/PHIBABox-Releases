@@ -3,20 +3,19 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.3.7</title>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>0.3.7</sparkle:shortVersionString>
+      <title>PHIBABox 0.3.8</title>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.3.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.3.7
+      <description>&lt;pre&gt;# PHIBABox 0.3.8
 
-- 选中已有堆叠与其他图片，再次堆叠时将图片加入原组，保留全部原成员、封面、组名及成员顺序，新图片追加到末尾。
-- 支持多个已有堆叠完整合并，以图库顺序中首先选中的已有组为目标，不遗漏折叠隐藏的成员；去除重复成员。
-- 菜单在选中已有堆叠时显示“加入已有堆叠”。包含此前Eagle共用取消/转移、全窗口拖入和图库缩放等功能，内置插件0.2.3。
+- 修复连续使用视觉 AI 时重复读取钥匙串、反复请求授权的问题。成功读取的密钥在本次运行中复用，保存或删除密钥时同步清除缓存。
+- 密钥仍保存在系统钥匙串中；首次使用、重启或版本更新后，macOS 可能仍需授权，请确认应用身份后选择“始终允许”。
 
-支持 Apple Silicon、macOS12.0及以上。
+支持 Apple Silicon、macOS 12.0 及以上，内置浏览器采集插件 0.2.3。
 &lt;/pre&gt;</description>
-      <pubDate>Fri, 23 Oct 2026 05:50:28 +0000</pubDate>
-      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.7/PHIBABox-0.3.7-arm64.zip" length="6513813" type="application/octet-stream" sparkle:edSignature="LSpTVyUDBbblB4WWCrTC5HogAlc+o0I6cRMxPjjbFjJw+wBJKXizygKprDKLc5qmeI2Ms6HUpSNaygNDHmg4AA==" />
+      <pubDate>Fri, 23 Oct 2026 06:30:47 +0000</pubDate>
+      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.8/PHIBABox-0.3.8-arm64.zip" length="6515474" type="application/octet-stream" sparkle:edSignature="R/TV86YxrMyxXWMCwHolyyAMzzDGQFhoNA1XjJQ1c0VOJts2g8ey1jFKlh/8pcIJc8IQYEP9RG06Jq3DmNwLAg==" />
     </item>
   </channel>
 </rss>
