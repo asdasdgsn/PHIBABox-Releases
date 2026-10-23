@@ -3,19 +3,24 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.3.8</title>
-      <sparkle:version>11</sparkle:version>
-      <sparkle:shortVersionString>0.3.8</sparkle:shortVersionString>
+      <title>PHIBABox 0.3.14</title>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.3.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.3.8
+      <description>&lt;pre&gt;# PHIBABox 0.3.14
 
-- 修复连续使用视觉 AI 时重复读取钥匙串、反复请求授权的问题。成功读取的密钥在本次运行中复用，保存或删除密钥时同步清除缓存。
-- 密钥仍保存在系统钥匙串中；首次使用、重启或版本更新后，macOS 可能仍需授权，请确认应用身份后选择“始终允许”。
+- 记住主窗口的大小和位置，关闭后重新打开、退出后重新启动均可恢复，并对屏幕变化进行适配。
+- 修正创建、加入和解除堆叠时的状态提示，避免沿用之前删除文件夹的提示。
+- GIF 预览保留原始动画，支持缩放和平移，已有 GIF 无需重新导入。
+- 图库支持鼠标悬停播放 GIF，移开后恢复静态缩略图；GIF 与视频同时只播放当前一项，滚动回收和快速移开时停止或取消加载。
+- 媒体设置增加“悬停时播放视频和 GIF”开关，沿用原来的悬停播放偏好。
+- GIF 和视频缩略图右上角增加矩形类型角标，分别显示“GIF”和“视频”；堆叠数量与收藏标记并列保留。
+- 调整窗口文件拖入接收层，取消只读缩略图对文件拖入的接收注册，减少拖拽事件冲突。
 
 支持 Apple Silicon、macOS 12.0 及以上，内置浏览器采集插件 0.2.3。
 &lt;/pre&gt;</description>
-      <pubDate>Fri, 23 Oct 2026 06:30:47 +0000</pubDate>
-      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.8/PHIBABox-0.3.8-arm64.zip" length="6515474" type="application/octet-stream" sparkle:edSignature="R/TV86YxrMyxXWMCwHolyyAMzzDGQFhoNA1XjJQ1c0VOJts2g8ey1jFKlh/8pcIJc8IQYEP9RG06Jq3DmNwLAg==" />
+      <pubDate>Fri, 23 Oct 2026 08:02:01 +0000</pubDate>
+      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.14/PHIBABox-0.3.14-arm64.zip" length="6532800" type="application/octet-stream" sparkle:edSignature="cagTqSR0ikUAHaRJL0SmTpM3sJ8qDUlvJbAiknCH4SUe+KgYLk/BaHpG7Lwifum5iAU4Gt2E6h2pCjeMKbU5AA==" />
     </item>
   </channel>
 </rss>
