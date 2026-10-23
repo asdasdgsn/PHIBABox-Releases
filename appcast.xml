@@ -3,28 +3,27 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.2.0</title>
-      <sparkle:version>2</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <title>PHIBABox 0.3.0</title>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.2.0
+      <description>&lt;pre&gt;# PHIBABox 0.3.0
 
-- 新增 Chrome / Edge 浏览器采集助手，支持右键采集图片和框选截图。
-- 浏览器采集设置新增独立插件卡片，内置插件 0.1.2，可离线导出并查看安装教程。
-- 支持 Pinterest 列表卡片图片识别，优先使用页面提供的高清地址并记录 Pin 来源。
-- 采集成功后显示系统通知；修复 HTTP 图片因 ATS 配置冲突导致的采集失败。
-- 新增 Eagle 素材库复制导入，保留文件夹层级、标签、备注和颜色信息。
-- 改进 Eagle 颜色占比索引与颜色筛选，减少不相关颜色的匹配。
-- 支持应用内检查和安装自分发更新，通过 HTTPS 下载并验证 Sparkle Ed25519 签名。
+- 新增网页视频采集，支持 MP4 和未加密的有限 HLS 点播流，保留视频与音轨。
+- Pinterest 首页图片、遮罩下素材及 blob 视频采集，支持轮播中当前视频片段的解析。
+- 右键只保留“采集到 PHIBABox”，点击直接采集；无法获取或下载时才询问是否改用截图。
+- App 展示下载/合并/入库阶段并支持取消，成功保存后发送通知。
+- 内置采集插件 0.2.3 和离线视频合并工具，用户无需额外安装工具。
+- 文件夹图标颜色改为直接展示彩色图案的网格，新建、编辑和右键入口统一。
 
-系统要求：Apple Silicon，macOS 12.0 或更高版本。
+需要同步安装新版 App 和插件，并刷新 Pinterest 页面。旧版桌面端会提示先更新，图片与截图采集继续兼容。
 
-更新后请在“设置 → 浏览器采集”导出插件并按教程加载，随后刷新网页。视频采集尚未支持。
+支持 Apple Silicon、macOS 12.0 及以上。视频单次最多 512 MiB、30 分钟，下载任务最长 10 分钟；暂不支持加密流或直播。
 
-此版本未经过 Apple 公证，首次安装或部分系统环境可能要求手动允许打开。
+此包采用自分发和 Sparkle 更新签名，不使用 Apple 公证；首次安装或部分系统环境可能需要手动允许打开。
 &lt;/pre&gt;</description>
-      <pubDate>Fri, 23 Oct 2026 02:03:32 +0000</pubDate>
-      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.2.0/PHIBABox-0.2.0-arm64.zip" length="4225280" type="application/octet-stream" sparkle:edSignature="lFgYC1Q29iUitcSakVkaUmEwwYV0JEAvoP+q+pORWssCBQ05UpZllDchDqELO01mzEzRVSQXCF7u/Ufj3QJZBw==" />
+      <pubDate>Fri, 23 Oct 2026 03:40:08 +0000</pubDate>
+      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.0/PHIBABox-0.3.0-arm64.zip" length="6425655" type="application/octet-stream" sparkle:edSignature="NwK2R8Az42sRLnvr3Ws9JbFJvkxigu+d0UI2hLenRWEKw0OZhQqlFWdYBEXLkPVluhNePioUnyQxx1cWgQejDQ==" />
     </item>
   </channel>
 </rss>
