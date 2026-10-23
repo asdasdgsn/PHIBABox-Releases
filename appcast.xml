@@ -3,21 +3,20 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.3.2</title>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <title>PHIBABox 0.3.7</title>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.3.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.3.2
+      <description>&lt;pre&gt;# PHIBABox 0.3.7
 
-- 扩大图库放大、缩小按钮的可点击范围。
-- 首页图库支持 Command + 等号放大、Command + 减号缩小，以及 Command + 滚轮连续调整缩略图大小。
-- 缩放时只更新瀑布流布局，不重新加载整批缩略图。
-- 包含0.3.1的Finder/桌面文件拖入修复，内置采集插件0.2.3。
+- 选中已有堆叠与其他图片，再次堆叠时将图片加入原组，保留全部原成员、封面、组名及成员顺序，新图片追加到末尾。
+- 支持多个已有堆叠完整合并，以图库顺序中首先选中的已有组为目标，不遗漏折叠隐藏的成员；去除重复成员。
+- 菜单在选中已有堆叠时显示“加入已有堆叠”。包含此前Eagle共用取消/转移、全窗口拖入和图库缩放等功能，内置插件0.2.3。
 
-支持 Apple Silicon、macOS 12.0及以上。
+支持 Apple Silicon、macOS12.0及以上。
 &lt;/pre&gt;</description>
-      <pubDate>Fri, 23 Oct 2026 03:56:03 +0000</pubDate>
-      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.2/PHIBABox-0.3.2-arm64.zip" length="6429798" type="application/octet-stream" sparkle:edSignature="hhmug0sUhTbduy7yyGcMspMd3ITsUcOPXW207+hhkelnvppRPx7ey3xPYhL7UHlXEj+HPNcPG7PJm6Z8RaouBg==" />
+      <pubDate>Fri, 23 Oct 2026 05:50:28 +0000</pubDate>
+      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.7/PHIBABox-0.3.7-arm64.zip" length="6513813" type="application/octet-stream" sparkle:edSignature="LSpTVyUDBbblB4WWCrTC5HogAlc+o0I6cRMxPjjbFjJw+wBJKXizygKprDKLc5qmeI2Ms6HUpSNaygNDHmg4AA==" />
     </item>
   </channel>
 </rss>
