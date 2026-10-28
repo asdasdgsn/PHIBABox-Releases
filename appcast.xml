@@ -3,23 +3,20 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.3.18</title>
-      <sparkle:version>21</sparkle:version>
-      <sparkle:shortVersionString>0.3.18</sparkle:shortVersionString>
+      <title>PHIBABox 0.3.19</title>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.3.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.3.18
+      <description>&lt;pre&gt;# PHIBABox 0.3.19
 
-- 优化本地素材操作的路径校验，减少分类、收藏、批注和堆叠操作的保存等待。
-- 分类与批注修改不再重载整片图库和缩略图，减少闪动与重排。
-- 元数据修改立即显示，后台串行保存；连续排队修改合并保存，失败时回滚并提示。
-- 退出应用时等待元数据保存完成，避免修改尚未写入就退出。
-
-开发机 1 万条本地素材测试中，单次分类保存由约 405 毫秒降至约 99 毫秒；实际速度因资料库规模与磁盘而异。
+- 发现新版本时，在右上角 AI 按钮左侧显示绿色“有新版本”胶囊按钮。
+- 点击胶囊打开更新弹窗，查看说明并下载安装。
+- 启动及运行期间静默检测可用版本，不自动下载；没有更新时隐藏提示，选择跳过该版本后清除提示。
 
 支持 macOS 12.0 及以上的 Apple Silicon Mac；内置浏览器采集插件 0.2.3。
 &lt;/pre&gt;</description>
-      <pubDate>Wed, 28 Oct 2026 03:17:57 +0000</pubDate>
-      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.18/PHIBABox-0.3.18-arm64.zip" length="6573387" type="application/octet-stream" sparkle:edSignature="z18usB4Ob+03xC2QDh5Uda4vRhS74ckTUFeJ3GNFPYfFK6QEsQuCCrZeyGmApZCDqem74JS3lDOgbHT9nA+kCw==" />
+      <pubDate>Wed, 28 Oct 2026 03:41:03 +0000</pubDate>
+      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.19/PHIBABox-0.3.19-arm64.zip" length="6583402" type="application/octet-stream" sparkle:edSignature="rwHJYbtMCTTW/SkpcIRM8aPPK3DtvaU60B0lsqFBNTyUpRIeccDszhTGQpstvYbeWT9TEnqqRHAe5hq9nMa2DA==" />
     </item>
   </channel>
 </rss>
