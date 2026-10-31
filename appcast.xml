@@ -3,20 +3,22 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.3.19</title>
-      <sparkle:version>22</sparkle:version>
-      <sparkle:shortVersionString>0.3.19</sparkle:shortVersionString>
+      <title>PHIBABox 0.3.20</title>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.3.20</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.3.19
+      <description>&lt;pre&gt;# PHIBABox 0.3.20
 
-- 发现新版本时，在右上角 AI 按钮左侧显示绿色“有新版本”胶囊按钮。
-- 点击胶囊打开更新弹窗，查看说明并下载安装。
-- 启动及运行期间静默检测可用版本，不自动下载；没有更新时隐藏提示，选择跳过该版本后清除提示。
+- 添加相同文件内容的素材时，提示“覆盖原素材”“保留两个素材”“取消采集”。
+- 支持本地导入、拖拽、粘贴、链接提取、浏览器采集及 Eagle 复制导入，同批次重复也可识别。
+- 覆盖保留原有分类、标签、批注、收藏、堆叠与素材 ID，并更新采集来源和目标分类；内容完全相同的原文件不会重复改写。
+- 取消批量导入或保存失败时撤销本次添加、清理临时副本，不删除原素材。
+- 重复检查在后台分块计算摘要；覆盖前再次校验文件是否发生外部变化，并保留浏览器采集重试记录。
 
 支持 macOS 12.0 及以上的 Apple Silicon Mac；内置浏览器采集插件 0.2.3。
 &lt;/pre&gt;</description>
-      <pubDate>Wed, 28 Oct 2026 03:41:03 +0000</pubDate>
-      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.19/PHIBABox-0.3.19-arm64.zip" length="6583402" type="application/octet-stream" sparkle:edSignature="rwHJYbtMCTTW/SkpcIRM8aPPK3DtvaU60B0lsqFBNTyUpRIeccDszhTGQpstvYbeWT9TEnqqRHAe5hq9nMa2DA==" />
+      <pubDate>Sat, 31 Oct 2026 09:17:00 +0000</pubDate>
+      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.3.20/PHIBABox-0.3.20-arm64.zip" length="6649378" type="application/octet-stream" sparkle:edSignature="MrP9/VDXD/Sb3vuOJcRf4azT3qOpzCBTi79ODJv/+XSa1hrepRNNK3TdmTEf2aRjsEHSj5fB6HOY2yoOkbamBw==" />
     </item>
   </channel>
 </rss>
