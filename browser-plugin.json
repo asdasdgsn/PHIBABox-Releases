@@ -1,0 +1,7 @@
+{
+  "version": "0.2.4",
+  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.2.4/PHIBABox-BrowserCapture-0.2.4.zip",
+  "bytes": 50625,
+  "sha256": "8310bda5ba6115c0d8c59c419953c8a14b652fcae43d9298afc34085d8e4356a",
+  "notes": "浏览器优先下载原图，网络失败自动重试；减少采集图片超时。"
+}
