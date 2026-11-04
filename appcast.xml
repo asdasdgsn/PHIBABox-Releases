@@ -3,23 +3,22 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.0</title>
-      <sparkle:version>26</sparkle:version>
-      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.2</title>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.0
+      <description>&lt;pre&gt;# PHIBABox 0.4.2
 
-- 新增“设置 → 插件扩展”，支持安装本地 HTML / CSS / JavaScript 插件、查看权限、启用、停用、独立升级与卸载。
-- 插件 API v1 支持素材信息与预览、手动标签与批注、文件夹读取与创建、添加分类、独立设置和剪贴板写入。权限在安装前确认，每次调用重新校验。
-- 插件在独立 WebKit 环境运行，不开放原生执行、任意文件访问与远程网络。插件包校验路径、链接、体积、文件类型、API 和版本；升级中断可恢复旧版。
-- 新增开发指南和完整开发套件的官网在线下载按钮，同时保留离线导出。
-- 内置标签与分类助手示例，提供“安装示例插件”和“导出开发套件”，含开发指南、TypeScript 类型定义及打包工具。
-- 包含 0.3.22 的自动分析新素材、AI 归类确认列表与设置中堆叠预览悬停动画。
+- 新增独立“PHIBABox 抠图助手”插件，可在插件扩展页安装，使用本机主体识别生成透明 PNG 并预览。
+- 支持保留原画布或裁剪主体、另存为新素材、替换本地原素材及恢复上次替换；保留分类和手动信息，Eagle 共用素材只允许另存。
+- 新增 images.process / images.write 插件权限与图片处理 API，完善开发文档和类型定义。
+- 保存与恢复加入退出等待、源文件变化检查和保存失败清理；图片版本区分缩略图缓存，避免显示替换前的旧图。
+- 包含 0.4.1 的 AI 归类输出兼容修复与确认列表缩略图。
 
-插件支持当前 macOS 客户端，Windows 客户端尚未集成。支持 macOS 12.0 及以上 Apple Silicon Mac。
+抠图功能要求 macOS 14+；主程序仍支持 macOS 12+ Apple Silicon Mac。所有抠图在本机执行，不上传原图。
 &lt;/pre&gt;</description>
-      <pubDate>Wed, 04 Nov 2026 09:26:05 +0000</pubDate>
-      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.4.0/PHIBABox-0.4.0-arm64.zip" length="6909670" type="application/octet-stream" sparkle:edSignature="jlYC9ZpWG+UxNzIlAcpPSO2Q0BKQ5+hjcCdUlw84HIqSJNBwso56cL0yOdu5THliuDZVRXmtUqp44m5s+TOKBw==" />
+      <pubDate>Wed, 04 Nov 2026 10:18:55 +0000</pubDate>
+      <enclosure url="https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/v0.4.2/PHIBABox-0.4.2-arm64.zip" length="6995835" type="application/octet-stream" sparkle:edSignature="v5F3zk7PnqJwHLUHtzx9m0T/lNvR3wKkL/5HGzqccHQYuJ1Ev7XstxwMV9w9/G9HSrx6ipoPMzXy2xXHKeqIDQ==" />
     </item>
   </channel>
 </rss>
