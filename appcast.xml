@@ -3,21 +3,20 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.10</title>
-      <sparkle:version>37</sparkle:version>
-      <sparkle:shortVersionString>0.4.10</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.11</title>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>0.4.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.10
+      <description>&lt;pre&gt;# PHIBABox 0.4.11
 
-- 预览大图新增原文件拖出：适合窗口时直接拖至桌面或支持文件拖入的软件。
-- 放大后保留拖动平移；按住 Option 拖动可导出原文件。
-- 堆叠底部缩略图支持拖出对应成员，单击仍可切换预览。
-- 导出使用原文件地址与文件承诺，保留原格式，不移动或删除资料库原文件。
+- 图库堆叠改为多图错位叠放，封面后方最多显示两张真实成员缩略图，增加层间阴影与细边框，保留数量角标。
+- 取消堆叠后恢复普通卡片，滚动复用时清理旧图层；GIF 和视频悬停播放保持在封面区域。
+- 包含 0.4.10 的预览原文件拖出功能：大图适合窗口时直接拖出，放大后按 Option 拖出；堆叠底部缩略图可拖出对应成员。
 
-Apple Silicon，macOS 12+；本机抠图功能需 macOS 14+。
+Apple Silicon，macOS 12+；本机抠图需 macOS 14+。联网搜索的平台验证及 Unsplash 本机密钥要求保持不变。
 &lt;/pre&gt;</description>
-      <pubDate>Thu, 05 Nov 2026 10:59:54 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.10-arm64.zip" length="11018318" type="application/octet-stream" sparkle:edSignature="of3y+c8nqmCfpWZqUQjDvbj2ZkBsST/EFw5x723bM9p1YxCY1Hmc6Ssg7r2RI0SRHLJCXQRn1JpiU3pLY7XtCg==" />
+      <pubDate>Thu, 05 Nov 2026 11:16:05 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.11-arm64.zip" length="11032974" type="application/octet-stream" sparkle:edSignature="IMpOaY9zyCDo0WV/hK9QLUUsadCMwGtdtys0HWTOoBRlHG2bliaVjg1VcBI+mDuXglGtAhKpk4/raF3H7IM9Bw==" />
     </item>
   </channel>
 </rss>
