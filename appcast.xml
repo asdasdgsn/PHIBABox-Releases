@@ -1,23 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<rss xmlns:ns0="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.3</title>
-      <sparkle:version>29</sparkle:version>
-      <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.3
+      <title>PHIBABox 0.4.4</title>
+      <ns0:version>31</ns0:version>
+      <ns0:shortVersionString>0.4.4</ns0:shortVersionString>
+      <ns0:minimumSystemVersion>12.0.0</ns0:minimumSystemVersion>
+      <description>&lt;pre&gt;# PHIBABox 0.4.4
 
-- 图库图片右键菜单直接列出已启用的图片插件，例如“使用 PHIBABox 抠图助手”，无需进入设置启动。
-- 单张或多张图片可直接进入对应插件界面；右键未选中的图片时切换到该图片，右键已有选择时保留多选。
-- 插件接收固定的本次图片选择，混选的视频和链接不作为图片处理目标，后台导入也不会意外改变目标。
-- 应用启动时载入插件列表，安装、停用与卸载后更新入口；插件运行期间暂缓资料库切换与应用更新安装。
+- 视觉 AI 新增“标签、描述与反推提示词”输出：按主体与动作、场景、构图、主色与强调色、光线方向、材质、情绪组织；独立保存并在预览中拆解展示和一键复制。
+- 抠图助手 1.2.0：批量处理时自动暂停“自动分析新素材”，结束、停止、关闭插件或插件进程退出后恢复原设置。
+- 左侧列出本次选图缩略图及逐项状态，点击后右侧查看对应原图和透明 PNG 结果，处理中也能浏览已完成项。
+- 缩略图逐张加载，结果按需读取，避免保留全部大图；插件请求排队避免预览与处理冲突。
+- 新增受权限控制的批量会话接口和透明缩略图能力。旧主程序不具备此能力时，1.2.0 仅启用单张处理。
 
-设置中的插件安装、启停和管理入口保留。抠图要求 macOS 14+，主程序仍支持 macOS 12+ Apple Silicon Mac。
+Apple Silicon，主程序 macOS 12+，抠图 macOS 14+。
+
+反推提示词入口：设置 → 视觉 AI → 输出 → 解析输出方式，选择“标签、描述与反推提示词”后重新分析素材。预览右侧可查看七项拆解并复制。已有普通分析不会自动补齐提示词。
+
+更新主程序后，在“设置 → 插件扩展”安装或升级内置抠图助手至 1.2.0；也可从官网下载独立插件包解压安装。
 &lt;/pre&gt;</description>
-      <pubDate>Wed, 04 Nov 2026 10:48:43 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.3-arm64.zip" length="7021794" type="application/octet-stream" sparkle:edSignature="6lYqym7skqJUIHyuUVZYTVsjXjoTO9/MXFfZps9jkswQcDTN5QtUBQkkjMMSQkUhxz6SZqeV3nixPNwC3YXsCw==" />
+      <pubDate>Thu, 05 Nov 2026 01:09:32 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.4-arm64.zip" length="7073341" type="application/octet-stream" ns0:edSignature="OKksjEdenRcWeGrcukboAgjTIue5ZxV6xrQvvNQOmL3EA+xXDchKomhIGfKZBejCNMcKqU52RCxQMtzr/pwwCA==" />
     </item>
   </channel>
 </rss>
