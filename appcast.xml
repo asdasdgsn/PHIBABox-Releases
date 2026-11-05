@@ -1,22 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.6</title>
-      <ns0:version>33</ns0:version>
-      <ns0:shortVersionString>0.4.6</ns0:shortVersionString>
-      <ns0:minimumSystemVersion>12.0.0</ns0:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.6
+      <title>PHIBABox 0.4.7</title>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>0.4.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
+      <description>&lt;pre&gt;# PHIBABox 0.4.7
 
-- 常规和自动 AI 分析固定输出标签与描述，旧输出偏好不再影响分析。
-- 图片右键新增独立“AI 提示词反推”，支持多选，仅保存反推结果，保留原标签与描述。
-- 设置新增标签管理：搜索、使用数量、重命名、合并和确认删除；只修改当前资料库的标签关联，不删除素材。
+## 界面与交互
+- 按 Asset Sync 设计规范统一主窗口、设置、预览、浏览器采集和插件卡片的玻璃材质、配色、间距与圆角。
+- 内置 Inter 字体和 Solar 线性导航图标，支持浅色、深色及跟随系统；保留素材原色和自定义文件夹配色。
+- 统一轻量悬停反馈，图库继续使用虚拟化与缩略图缓存。
 
-Apple Silicon，主程序 macOS 12+，抠图 macOS 14+。
+## 喜欢的文件夹
+- 文件夹右键新增“喜欢 / 取消喜欢”，侧边栏以两列展示笑脸文件夹卡片。
+- 卡片采用彩色半透明磨砂前后盖与独立纸张层，最多显示三张近期图片缩略图；缩略图位于纸张前方，悬停时纸张缩小产生层次效果。
+- 配色跟随对应文件夹，支持父级继承、预设色与自定义色；缩略图随素材变化更新。
+- 点击标题整行可展开或收起，并记住状态；隐藏侧边栏滚动条，保留滚轮和触控板滚动。
+
+## AI 提示词反推
+- 增加明确 JSON 示例，兼容文本块响应、代码围栏和前后说明。
+- 无效或不完整的结构自动重试一次；区分截断、空响应和服务拒绝，避免保存不完整结果。
+
+Apple Silicon；主程序要求 macOS 12 或更高，抠图功能要求 macOS 14 或更高。
 &lt;/pre&gt;</description>
-      <pubDate>Thu, 05 Nov 2026 01:59:16 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.6-arm64.zip" length="7117991" type="application/octet-stream" ns0:edSignature="/oDQWuNe3+goYOjZmd2MlQZmPwczsJahXxATggHm8f0o1GJVlKhdY/iPO8PODMMh0BfekfXGFaCGiRfgLXBaCA==" />
+      <pubDate>Thu, 05 Nov 2026 06:16:13 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.7-arm64.zip" length="10830261" type="application/octet-stream" sparkle:edSignature="6GflTg4rTYaNWI3bk3fEOXVIULpSjMwNMiznbF51rp1MQhJxysaNHf+CCWv852ftnPJlRaNoMzFXDKWygwizCA==" />
     </item>
   </channel>
 </rss>
