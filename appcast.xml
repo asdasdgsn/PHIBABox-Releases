@@ -3,26 +3,21 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.4</title>
-      <ns0:version>31</ns0:version>
-      <ns0:shortVersionString>0.4.4</ns0:shortVersionString>
+      <title>PHIBABox 0.4.5</title>
+      <ns0:version>32</ns0:version>
+      <ns0:shortVersionString>0.4.5</ns0:shortVersionString>
       <ns0:minimumSystemVersion>12.0.0</ns0:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.4
+      <description>&lt;pre&gt;# PHIBABox 0.4.5
 
-- 视觉 AI 新增“标签、描述与反推提示词”输出：按主体与动作、场景、构图、主色与强调色、光线方向、材质、情绪组织；独立保存并在预览中拆解展示和一键复制。
-- 抠图助手 1.2.0：批量处理时自动暂停“自动分析新素材”，结束、停止、关闭插件或插件进程退出后恢复原设置。
-- 左侧列出本次选图缩略图及逐项状态，点击后右侧查看对应原图和透明 PNG 结果，处理中也能浏览已完成项。
-- 缩略图逐张加载，结果按需读取，避免保留全部大图；插件请求排队避免预览与处理冲突。
-- 新增受权限控制的批量会话接口和透明缩略图能力。旧主程序不具备此能力时，1.2.0 仅启用单张处理。
+- 复制 AI 反推提示词后，在预览右侧显示带勾选图标的“提示词已复制”提醒，约 2 秒后自动收起。
+- 重复点击会重新计时；切换素材或关闭预览时清除提醒。剪贴板写入失败时显示重试提示。
 
 Apple Silicon，主程序 macOS 12+，抠图 macOS 14+。
 
-反推提示词入口：设置 → 视觉 AI → 输出 → 解析输出方式，选择“标签、描述与反推提示词”后重新分析素材。预览右侧可查看七项拆解并复制。已有普通分析不会自动补齐提示词。
-
-更新主程序后，在“设置 → 插件扩展”安装或升级内置抠图助手至 1.2.0；也可从官网下载独立插件包解压安装。
+- 优化反推逻辑，以还原参考图视觉特征为目标，输出关键视觉特征、完整正向提示词和偏差限制，并提供正向保留指令；兼容历史七项结果。已有素材需重新分析。
 &lt;/pre&gt;</description>
-      <pubDate>Thu, 05 Nov 2026 01:09:32 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.4-arm64.zip" length="7073341" type="application/octet-stream" ns0:edSignature="OKksjEdenRcWeGrcukboAgjTIue5ZxV6xrQvvNQOmL3EA+xXDchKomhIGfKZBejCNMcKqU52RCxQMtzr/pwwCA==" />
+      <pubDate>Thu, 05 Nov 2026 01:44:29 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.5-arm64.zip" length="7097003" type="application/octet-stream" ns0:edSignature="eLGmk/MShhJ/F/rEjV6k4kxg6sjKEci7lhSMAcljD0XWye3XMcgdfc5l2VZVvyuH88KfjBPjaiQrf8m8+7V9DA==" />
     </item>
   </channel>
 </rss>
