@@ -3,31 +3,23 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.7</title>
-      <sparkle:version>34</sparkle:version>
-      <sparkle:shortVersionString>0.4.7</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.8</title>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.4.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.7
+      <description>&lt;pre&gt;# PHIBABox 0.4.8
 
-## 界面与交互
-- 按 Asset Sync 设计规范统一主窗口、设置、预览、浏览器采集和插件卡片的玻璃材质、配色、间距与圆角。
-- 内置 Inter 字体和 Solar 线性导航图标，支持浅色、深色及跟随系统；保留素材原色和自定义文件夹配色。
-- 统一轻量悬停反馈，图库继续使用虚拟化与缩略图缓存。
+- 更新信息与安装包统一由 PHIBA 官网通过 HTTPS 提供，客户端检查更新不再依赖 GitHub 可访问性。
+- 保留原更新签名密钥与旧版 GitHub 索引；能够连接旧地址的旧客户端仍可直接升级。
+- 检查失败时区分超时、断网、地址解析与安全连接问题，并在版本更新页提供官网下载入口。
+- 发布流程自动校验官网公开安装包、原子更新官网索引，并同步旧版索引，防止以后漏更新。
 
-## 喜欢的文件夹
-- 文件夹右键新增“喜欢 / 取消喜欢”，侧边栏以两列展示笑脸文件夹卡片。
-- 卡片采用彩色半透明磨砂前后盖与独立纸张层，最多显示三张近期图片缩略图；缩略图位于纸张前方，悬停时纸张缩小产生层次效果。
-- 配色跟随对应文件夹，支持父级继承、预设色与自定义色；缩略图随素材变化更新。
-- 点击标题整行可展开或收起，并记住状态；隐藏侧边栏滚动条，保留滚轮和触控板滚动。
+重要：0.4.7 及以前版本若无法访问 GitHub，需要从官网手动安装一次本版；此后通过软件检查更新即可使用官网更新源。
 
-## AI 提示词反推
-- 增加明确 JSON 示例，兼容文本块响应、代码围栏和前后说明。
-- 无效或不完整的结构自动重试一次；区分截断、空响应和服务拒绝，避免保存不完整结果。
-
-Apple Silicon；主程序要求 macOS 12 或更高，抠图功能要求 macOS 14 或更高。
+Apple Silicon；主程序 macOS 12+，抠图功能 macOS 14+。更新仍需可访问官网的网络，不能绕过断网、企业网络限制或系统安全策略。
 &lt;/pre&gt;</description>
-      <pubDate>Thu, 05 Nov 2026 06:16:13 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.7-arm64.zip" length="10830261" type="application/octet-stream" sparkle:edSignature="6GflTg4rTYaNWI3bk3fEOXVIULpSjMwNMiznbF51rp1MQhJxysaNHf+CCWv852ftnPJlRaNoMzFXDKWygwizCA==" />
+      <pubDate>Thu, 05 Nov 2026 07:06:42 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.8-arm64.zip" length="10831316" type="application/octet-stream" sparkle:edSignature="hjN/PTooN9OT+003NAhXFgYgshpnMnCL4A6oRC2T02uivTo3JGwZI6o5buR3tnxdpwwusvpNQvAHGjcZvLggBQ==" />
     </item>
   </channel>
 </rss>
