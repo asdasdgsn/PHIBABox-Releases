@@ -1,7 +1,7 @@
 {
-  "version": "0.2.4",
-  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.2.4/PHIBABox-BrowserCapture-0.2.4.zip",
-  "bytes": 50625,
-  "sha256": "8310bda5ba6115c0d8c59c419953c8a14b652fcae43d9298afc34085d8e4356a",
-  "notes": "浏览器优先下载原图，网络失败自动重试；减少采集图片超时。"
+  "version": "0.2.5",
+  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.2.5/PHIBABox-BrowserCapture-0.2.5.zip",
+  "bytes": 1717601,
+  "sha256": "e0d21123853a1a0f18bd08526f0f4f88ff8a8684373f598d1968824d50c89bb4",
+  "notes": "新增网页拖图采集：拖起图片后放入笑脸文件夹，松手保存到当前资料库和文件夹。支持开关、取消与采集结果提示；保留右键图片/视频采集和截图。重新加载插件后请刷新网页。"
 }
