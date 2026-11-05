@@ -3,21 +3,20 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.5</title>
-      <ns0:version>32</ns0:version>
-      <ns0:shortVersionString>0.4.5</ns0:shortVersionString>
+      <title>PHIBABox 0.4.6</title>
+      <ns0:version>33</ns0:version>
+      <ns0:shortVersionString>0.4.6</ns0:shortVersionString>
       <ns0:minimumSystemVersion>12.0.0</ns0:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.5
+      <description>&lt;pre&gt;# PHIBABox 0.4.6
 
-- 复制 AI 反推提示词后，在预览右侧显示带勾选图标的“提示词已复制”提醒，约 2 秒后自动收起。
-- 重复点击会重新计时；切换素材或关闭预览时清除提醒。剪贴板写入失败时显示重试提示。
+- 常规和自动 AI 分析固定输出标签与描述，旧输出偏好不再影响分析。
+- 图片右键新增独立“AI 提示词反推”，支持多选，仅保存反推结果，保留原标签与描述。
+- 设置新增标签管理：搜索、使用数量、重命名、合并和确认删除；只修改当前资料库的标签关联，不删除素材。
 
 Apple Silicon，主程序 macOS 12+，抠图 macOS 14+。
-
-- 优化反推逻辑，以还原参考图视觉特征为目标，输出关键视觉特征、完整正向提示词和偏差限制，并提供正向保留指令；兼容历史七项结果。已有素材需重新分析。
 &lt;/pre&gt;</description>
-      <pubDate>Thu, 05 Nov 2026 01:44:29 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.5-arm64.zip" length="7097003" type="application/octet-stream" ns0:edSignature="eLGmk/MShhJ/F/rEjV6k4kxg6sjKEci7lhSMAcljD0XWye3XMcgdfc5l2VZVvyuH88KfjBPjaiQrf8m8+7V9DA==" />
+      <pubDate>Thu, 05 Nov 2026 01:59:16 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.6-arm64.zip" length="7117991" type="application/octet-stream" ns0:edSignature="/oDQWuNe3+goYOjZmd2MlQZmPwczsJahXxATggHm8f0o1GJVlKhdY/iPO8PODMMh0BfekfXGFaCGiRfgLXBaCA==" />
     </item>
   </channel>
 </rss>
