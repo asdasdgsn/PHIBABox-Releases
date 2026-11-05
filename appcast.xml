@@ -3,24 +3,21 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.9</title>
-      <sparkle:version>36</sparkle:version>
-      <sparkle:shortVersionString>0.4.9</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.10</title>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.4.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.9
+      <description>&lt;pre&gt;# PHIBABox 0.4.10
 
-- 搜索栏新增“本地 / 联网”切换，默认仍为本地搜索。
-- 联网结果按百度图片、Pinterest、花瓣、Unsplash 分组，每个平台最多展示三张图片，支持预览与收藏到当前资料库及分类。
-- 收藏保留来源、搜索关键词与可用作者信息，并沿用覆盖、保留两个、取消的重复处理。
-- 输入合并请求并取消过期搜索，切换资料库时防止误存。
-- 设置新增联网搜索配置入口，Unsplash Access Key 仅保存在本机钥匙串。
-
-平台可用性：Pinterest、花瓣等可能要求在应用内网站窗口登录或验证；平台限制、页面变化及网络状态可能影响搜索或下载。Unsplash 需在当前电脑配置 Access Key，本版不内置开发者密钥，也未提供公共代理。macOS 12/13 如动态网页未加载，可打开网站后重试。
+- 预览大图新增原文件拖出：适合窗口时直接拖至桌面或支持文件拖入的软件。
+- 放大后保留拖动平移；按住 Option 拖动可导出原文件。
+- 堆叠底部缩略图支持拖出对应成员，单击仍可切换预览。
+- 导出使用原文件地址与文件承诺，保留原格式，不移动或删除资料库原文件。
 
 Apple Silicon，macOS 12+；本机抠图功能需 macOS 14+。
 &lt;/pre&gt;</description>
-      <pubDate>Thu, 05 Nov 2026 10:23:58 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.9-arm64.zip" length="11000886" type="application/octet-stream" sparkle:edSignature="7XhB3HTrrWshU7cPhsOrPpAzYy7emVHY9w4I6g2/+dO9WWwhQgz4+m6Xd9sh3kXXoN8bkSeMy/nZJYE31Xu9Bg==" />
+      <pubDate>Thu, 05 Nov 2026 10:59:54 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.10-arm64.zip" length="11018318" type="application/octet-stream" sparkle:edSignature="of3y+c8nqmCfpWZqUQjDvbj2ZkBsST/EFw5x723bM9p1YxCY1Hmc6Ssg7r2RI0SRHLJCXQRn1JpiU3pLY7XtCg==" />
     </item>
   </channel>
 </rss>
