@@ -3,21 +3,20 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.14</title>
-      <sparkle:version>41</sparkle:version>
-      <sparkle:shortVersionString>0.4.14</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.21</title>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>0.4.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.14
+      <description>&lt;pre&gt;# PHIBABox 0.4.21
 
-- 按住 Option 可从图片上开始框选，即使素材铺满显示区域也可一次选择多个素材。
-- Shift + Option 拖动追加选择，Esc 取消本次框选并恢复原选择；普通拖动仍用于导出素材。
-- 设置 → 快捷键增加图库框选操作说明。
-- 包含主窗口右上角设置按钮与浏览器采集助手 0.2.7。
-
-Apple Silicon，macOS 12+。
+- 重新设计喜欢的文件夹：真实素材预览、动态磨砂透色及明亮柔和的图标同色系外观。
+- 恢复与应用图标呼应的笑脸；文件夹名称显示在下方，素材数量显示在封面右下角。
+- 增加悬停时封面向前打开、移开后合上的动画，照片支持分层展开与指针视差。
+- 加深灰色文件夹为炭灰色，提升文字与笑脸对比度；移除底部阴影。
+- 改善窄侧栏、长名称及空文件夹的显示。
 &lt;/pre&gt;</description>
-      <pubDate>Fri, 06 Nov 2026 03:55:02 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.14-arm64.zip" length="14288363" type="application/octet-stream" sparkle:edSignature="ymcg/2X7MTsvJNEk0v32MhNNCe+WLiE8Fv65S6siX+jGvnlfxXMj6oNre3ZNyBllTDKk7eE62Rn5BPzH/VEDBw==" />
+      <pubDate>Fri, 06 Nov 2026 10:12:31 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.21-arm64.zip" length="14300297" type="application/octet-stream" sparkle:edSignature="tOlfEajwmU9rbHB1ZO+1Kxu5Bh1/YgFEP+XJqgwmi4/GGPz+l5CJZyv+IPTDJb7xH7ZsNy4WwO7o2EX+4aIPCw==" />
     </item>
   </channel>
 </rss>
