@@ -3,20 +3,21 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.12</title>
-      <sparkle:version>39</sparkle:version>
-      <sparkle:shortVersionString>0.4.12</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.14</title>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>0.4.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.12
+      <description>&lt;pre&gt;# PHIBABox 0.4.14
 
-- 修复关闭主窗口后点击 Dock 图标或重新打开应用无法恢复窗口的问题，保留当前资料库状态。
-- 恢复已隐藏或最小化的主窗口，设置窗口不影响主窗口重新打开。
-- 内置浏览器采集助手 0.2.6：拖动网页图片时，笑脸收集文件夹在画面中央出现，窄窗口同样居中。
+- 按住 Option 可从图片上开始框选，即使素材铺满显示区域也可一次选择多个素材。
+- Shift + Option 拖动追加选择，Esc 取消本次框选并恢复原选择；普通拖动仍用于导出素材。
+- 设置 → 快捷键增加图库框选操作说明。
+- 包含主窗口右上角设置按钮与浏览器采集助手 0.2.7。
 
-Apple Silicon，macOS 12+。浏览器插件更新后，请在扩展管理页重新加载，并刷新图片网页。
+Apple Silicon，macOS 12+。
 &lt;/pre&gt;</description>
-      <pubDate>Fri, 06 Nov 2026 01:00:04 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.12-arm64.zip" length="14268161" type="application/octet-stream" sparkle:edSignature="0sAwLUoKF5heDDd0PKEWLjL0jfSu1oHdSUFrkKc2KVhxo+T9baUa/4jUusi5E6O1Bv8xDd96eYR3aUJmvBkLAg==" />
+      <pubDate>Fri, 06 Nov 2026 03:55:02 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.14-arm64.zip" length="14288363" type="application/octet-stream" sparkle:edSignature="ymcg/2X7MTsvJNEk0v32MhNNCe+WLiE8Fv65S6siX+jGvnlfxXMj6oNre3ZNyBllTDKk7eE62Rn5BPzH/VEDBw==" />
     </item>
   </channel>
 </rss>
