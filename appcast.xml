@@ -3,20 +3,21 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.21</title>
-      <sparkle:version>48</sparkle:version>
-      <sparkle:shortVersionString>0.4.21</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.22</title>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>0.4.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.21
+      <description>&lt;pre&gt;# PHIBABox 0.4.22
 
-- 重新设计喜欢的文件夹：真实素材预览、动态磨砂透色及明亮柔和的图标同色系外观。
-- 恢复与应用图标呼应的笑脸；文件夹名称显示在下方，素材数量显示在封面右下角。
-- 增加悬停时封面向前打开、移开后合上的动画，照片支持分层展开与指针视差。
-- 加深灰色文件夹为炭灰色，提升文字与笑脸对比度；移除底部阴影。
-- 改善窄侧栏、长名称及空文件夹的显示。
+- 侧边栏新增「文档」。可拖入或导入 PDF 与 Markdown 文件，并在应用内预览。文档保存在各自资料库的独立目录。
+- 可新建富文本卡片，支持标题、粗体、斜体、列表和链接，并可单独选择背景色。
+- 浏览器插件采集的图片、视频和截图默认进入当前资料库的「全部」，没有文件夹归属。
+- 修复文件夹拖拽和视频采集测试的环境依赖。
+
+适用于 Apple Silicon Mac，macOS 12 或更新版本。
 &lt;/pre&gt;</description>
-      <pubDate>Fri, 06 Nov 2026 10:12:31 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.21-arm64.zip" length="14300297" type="application/octet-stream" sparkle:edSignature="tOlfEajwmU9rbHB1ZO+1Kxu5Bh1/YgFEP+XJqgwmi4/GGPz+l5CJZyv+IPTDJb7xH7ZsNy4WwO7o2EX+4aIPCw==" />
+      <pubDate>Sun, 08 Nov 2026 09:00:37 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.22-arm64.zip" length="14466872" type="application/octet-stream" sparkle:edSignature="/R1lwR2jSP+4VtS0Cg5Kp4YLrer9WJSF5i9T7CHkb47Xo7+58ZZ4BP0Mji71TGrfWRUOqf1XmxI5MrYQJIufAg==" />
     </item>
   </channel>
 </rss>
