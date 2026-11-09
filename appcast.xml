@@ -3,19 +3,22 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.30</title>
-      <sparkle:version>57</sparkle:version>
-      <sparkle:shortVersionString>0.4.30</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.33</title>
+      <sparkle:version>60</sparkle:version>
+      <sparkle:shortVersionString>0.4.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.30
+      <description>&lt;pre&gt;# PHIBABox 0.4.33
 
-- 鼠标进入普通「文件夹」区域时，临时收起「全部」「未分类」「收藏」和喜欢的文件夹卡片，给文件夹列表腾出空间。
-- 鼠标移出后恢复原来的展开状态。窗口较矮时，喜欢区会限制展开高度，保留普通文件夹入口。
+- 文件夹拖拽靠近列表顶部或底部时会自动滚动，停留即可持续移动，越靠近边缘滚动越快。原文件夹滚出屏幕后仍可继续拖拽，松手完成排序或移动；按 Esc 可取消。
+- 修复空格打开图片预览后，再按空格不能退出的问题。编辑标签、批注时空格仍用于输入；点击图片可恢复预览快捷键。
+- 固定应用签名身份，减少每次更新后重复询问钥匙串密码。密钥仍保存在 macOS 钥匙串中，未放宽访问权限。
 
-适用于 Apple Silicon Mac，macOS 12 或更新版本。
+旧用户首次切换到新的签名身份时，系统可能仍要求输入一次登录钥匙串密码并选择“始终允许”；后续沿用相同签名的更新可继承授权。本版使用 Apple Development 证书进行自分发签名，尚未经过 Developer ID 公证。
+
+适用于 Apple Silicon Mac，macOS 12 或更新版本。浏览器采集助手仍为 0.2.7。
 &lt;/pre&gt;</description>
-      <pubDate>Mon, 09 Nov 2026 13:50:16 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.30-arm64.zip" length="14791723" type="application/octet-stream" sparkle:edSignature="nHR+qQZ/rBwk1M/lB0olvPb7+HTYdd0UKv8F2AwYUHrkrF+BXHxEAzYForpNibDFRTH3/Se+1zzvyZkBffqPBA==" />
+      <pubDate>Mon, 09 Nov 2026 14:54:41 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.33-arm64.zip" length="14889623" type="application/octet-stream" sparkle:edSignature="dh65WU60iRjZzTDWlLbePst3x74Bz3Bm2rbll32IQY9u9Y8QabiX51DH/ZOoKgAxBmpkInw/1Y8ISkmki8zKCw==" />
     </item>
   </channel>
 </rss>
