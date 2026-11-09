@@ -3,20 +3,20 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.28</title>
-      <sparkle:version>55</sparkle:version>
-      <sparkle:shortVersionString>0.4.28</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.29</title>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>0.4.29</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.28
+      <description>&lt;pre&gt;# PHIBABox 0.4.29
 
-- 参考板和置顶小窗支持快捷键缩放、拖动图片自由排版。点选图片后可单独调整大小，也可直接在图上标注。标注会跟随图片移动和缩放。
-- 导入 PDF、DOCX 或 Markdown 时，可选用 AI 从正文提取核心主题，为资料库中的副本自动命名。设置默认关闭。
-- Markdown 文档预览按排版显示标题、列表、引用、表格和代码块。
+- 优化参考板和置顶小窗的素材拖动，拖动时减少图片和标注的重复绘制，松手后保存位置。
+- 图库角标文字水平、垂直居中。GIF 使用绿色背景，视频使用蓝色背景。
+- 参考板的「置顶查看」按钮增加四周留白。
 
 适用于 Apple Silicon Mac，macOS 12 或更新版本。
 &lt;/pre&gt;</description>
-      <pubDate>Mon, 09 Nov 2026 02:22:25 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.28-arm64.zip" length="14779701" type="application/octet-stream" sparkle:edSignature="+6wCyfsi0Bmr9ma3rYpgmsMbj+6kmeG7dJA7DMIrrFi/sUrYDB55duoc80Y1Q4Uf3mq1YE3Ki0CT9X5qVALRBw==" />
+      <pubDate>Mon, 09 Nov 2026 06:28:05 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.29-arm64.zip" length="14785596" type="application/octet-stream" sparkle:edSignature="jTUv7zhtyZBTLvCOA9Vx9THqchiPFDcaBeLNdZEh6M/N6EEswAcJznJr/KbSs6Z98IFPC+xL4YQO9ElYiVCGAw==" />
     </item>
   </channel>
 </rss>
