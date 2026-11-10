@@ -3,21 +3,21 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.36</title>
-      <sparkle:version>63</sparkle:version>
-      <sparkle:shortVersionString>0.4.36</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.37</title>
+      <sparkle:version>64</sparkle:version>
+      <sparkle:shortVersionString>0.4.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.36
+      <description>&lt;pre&gt;# PHIBABox 0.4.37
 
-- 新增插件商店。打开「设置 → 插件扩展 → 打开插件商店」可浏览官方与第三方插件，查看版本和权限，并在应用内安装和更新。
-- 首批官方插件包括裁剪助手和抠图助手。更新保留插件数据和启用状态，新增权限及切换商店来源需要确认。插件作者可在官网创建投稿凭证、送审并提交后续版本。
-- 修复普通图片裁剪保存被错误要求包含透明通道的问题。裁剪按系统解码能力和本机资源处理原图，支持按原像素另存、替换和恢复。抠图的透明输出要求保留。
-- 插件开发套件新增商店投稿指南和更新后的裁剪助手说明。
+- 精简「插件扩展」设置页。打开插件商店、从文件夹安装与管理已安装插件各有清楚的入口。
+- 插件商店新增「开发中心」，集中提供开发指南、SDK 下载、离线导出、示例安装、发布和投稿管理。
+- 插件商店、安装更新和发布按钮采用柔和的紫青光效。支持浅色、深色和减少动态效果设置。
+- 从开发中心安装示例插件时，会在商店窗口中显示权限确认。
 
-适用于 Apple Silicon Mac 和 macOS 12 或更新版本。抠图需 macOS 14 或更新版本。沿用固定 Apple Development 签名身份。
+适用于 Apple Silicon Mac 和 macOS 12 或更新版本。抠图需 macOS 14 或更新版本。
 &lt;/pre&gt;</description>
-      <pubDate>Mon, 09 Nov 2026 17:34:21 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.36-arm64.zip" length="15177896" type="application/octet-stream" sparkle:edSignature="Y+gO5QieHLeIfo9cDo/ngTpGVAvtNEJgstThEk8T/ibx7mrHK/LFWbvaRTY8oRhAF1j8kbc75d2uH8+OuNbcDw==" />
+      <pubDate>Tue, 10 Nov 2026 03:08:17 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.37-arm64.zip" length="15244099" type="application/octet-stream" sparkle:edSignature="9lK6UEyX7kMxYaLdJphk3WSQq6U1UD1kw2gvD5Srnd+vuiK9jqoppBMePGC2jf5cUVAmth8ASQ1Xty0pyAP7Cw==" />
     </item>
   </channel>
 </rss>
