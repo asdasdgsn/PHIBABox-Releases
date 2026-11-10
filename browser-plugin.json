@@ -1,7 +1,7 @@
 {
-  "version": "0.2.7",
-  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.2.7/PHIBABox-BrowserCapture-0.2.7.zip",
-  "bytes": 1718438,
-  "sha256": "00da3c812909334b94f1f84978d76e2c5c47f7fa9dfa5eb2ff07eb6ad6546d75",
-  "notes": "拖入图片后，笑脸文件夹缩小飞到网页右上角显示采集进度，确认保存完成后自动消失；失败或结果待确认时保留提示。"
+  "version": "0.2.8",
+  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.2.8/PHIBABox-BrowserCapture-0.2.8.zip",
+  "bytes": 1719205,
+  "sha256": "49f63416e5a87eb4332573cb8c08837e241c933bb61212274446bb8684ac3e6f",
+  "notes": "精简采集助手弹窗，突出保存位置、连接状态和框选截图。刷新按钮移到状态卡片，拖图开关与结果反馈集中展示。"
 }
