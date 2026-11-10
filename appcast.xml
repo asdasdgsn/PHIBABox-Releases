@@ -3,21 +3,21 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.38</title>
-      <sparkle:version>65</sparkle:version>
-      <sparkle:shortVersionString>0.4.38</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.39</title>
+      <sparkle:version>66</sparkle:version>
+      <sparkle:shortVersionString>0.4.39</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.38
+      <description>&lt;pre&gt;# PHIBABox 0.4.39
 
-- 「文件 → 导出整个资料库」可生成 ZIP 迁移包，保留当前素材、分类、标签、收藏、文档和参考板。
-- 「文件 → 导出指定文件夹」支持勾选多个文件夹，并带上它们的子文件夹和素材。
-- 在另一台 Mac 上用「文件 → 导入资料库压缩包」恢复为新资料库，导入成功后自动打开。已有资料库不会被覆盖。
-- 可读取的 Eagle 共用素材会随包复制，换机后可独立使用。缩略图会重新生成，已删除项目、编辑恢复历史和本机设置不随包迁移。
+- 文件夹图库、侧栏计数和喜欢卡片只显示直接归入该文件夹的素材。把素材拖入子文件夹后，父级视图立即更新，其他分类归属保留。
+- 素材拖到侧栏文件夹时，上方的「全部」「未分类」「收藏」和喜欢卡片临时收起，给目标列表腾出空间。
+- 重整「设置 → 浏览器采集」，集中管理本机连接、扩展导出、更新和安装指南。
+- 内置 Chrome / Edge 采集助手 0.2.8。弹窗优先显示保存位置与连接状态，突出「框选截图」，并精简拖图提示。
 
 适用于 Apple Silicon Mac 和 macOS 12 或更新版本。抠图需 macOS 14 或更新版本。
 &lt;/pre&gt;</description>
-      <pubDate>Tue, 10 Nov 2026 04:03:03 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.38-arm64.zip" length="15420318" type="application/octet-stream" sparkle:edSignature="Wfb5GB1L5D/ZbINDkU7O6z74Q9eiBBJbGBDVtVRjv4/wBWA+q7zo7cXGRpfbfj3M3aTJcj5twpUVAc+12dPaDg==" />
+      <pubDate>Tue, 10 Nov 2026 07:44:17 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.39-arm64.zip" length="15443565" type="application/octet-stream" sparkle:edSignature="2X5+ySsk96CfKgrvVNj8cSO9TyqsP0dVbnqBF40pk6c907S3HYFRBz9fkCtC/j52sn02VWI3wqVjpRcA8PrJCw==" />
     </item>
   </channel>
 </rss>
