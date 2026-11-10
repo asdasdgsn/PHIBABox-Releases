@@ -3,21 +3,20 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.39</title>
-      <sparkle:version>66</sparkle:version>
-      <sparkle:shortVersionString>0.4.39</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.40</title>
+      <sparkle:version>67</sparkle:version>
+      <sparkle:shortVersionString>0.4.40</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.39
+      <description>&lt;pre&gt;# PHIBABox 0.4.40
 
-- 文件夹图库、侧栏计数和喜欢卡片只显示直接归入该文件夹的素材。把素材拖入子文件夹后，父级视图立即更新，其他分类归属保留。
-- 素材拖到侧栏文件夹时，上方的「全部」「未分类」「收藏」和喜欢卡片临时收起，给目标列表腾出空间。
-- 重整「设置 → 浏览器采集」，集中管理本机连接、扩展导出、更新和安装指南。
-- 内置 Chrome / Edge 采集助手 0.2.8。弹窗优先显示保存位置与连接状态，突出「框选截图」，并精简拖图提示。
+- 「设置 → 外观 → 喜欢的文件夹」可选择每行两张或三张卡片。默认两张，切换立即生效，设置会保存在本机。
+- 三列卡片随侧栏宽度缩放。卡片保留文件夹名称、素材数量和预览。
+- 内置 Chrome / Edge 采集助手 0.2.9，修复部分网页拖图到收集框后无法提交的问题。
 
 适用于 Apple Silicon Mac 和 macOS 12 或更新版本。抠图需 macOS 14 或更新版本。
 &lt;/pre&gt;</description>
-      <pubDate>Tue, 10 Nov 2026 07:44:17 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.39-arm64.zip" length="15443565" type="application/octet-stream" sparkle:edSignature="2X5+ySsk96CfKgrvVNj8cSO9TyqsP0dVbnqBF40pk6c907S3HYFRBz9fkCtC/j52sn02VWI3wqVjpRcA8PrJCw==" />
+      <pubDate>Tue, 10 Nov 2026 12:46:58 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.40-arm64.zip" length="15458493" type="application/octet-stream" sparkle:edSignature="gPuWMI+qoj5wFUm9LI6froZM1CdxtoICtnwqPpOVuvcKKYcVLFZEL0PElQOm/hx1jP+Yyy05TvJKvq9kpzDiCQ==" />
     </item>
   </channel>
 </rss>
