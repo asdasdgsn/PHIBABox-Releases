@@ -3,21 +3,21 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.42</title>
-      <sparkle:version>69</sparkle:version>
-      <sparkle:shortVersionString>0.4.42</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.43</title>
+      <sparkle:version>70</sparkle:version>
+      <sparkle:shortVersionString>0.4.43</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.42
+      <description>&lt;pre&gt;# PHIBABox 0.4.43
 
-- 从 Finder 或图库拖拽素材时，在收起的父文件夹上连续悬停 2 秒，会自动展开子文件夹，可继续逐层拖入。
-- 拖拽过程中移动鼠标不会反复重置悬停计时；移出文件夹、结束拖拽、放下文件或目标行消失时取消等待。
-- 保留字体收藏、字体预览与原文件导出，以及父文件夹包含全部下级素材的去重数量统计。
-- 内置 Chrome / Edge 采集助手 0.2.9。
+- 拖入 Finder 文件或图库素材时，悬停展开子文件夹的等待时间由 2 秒缩短为 1 秒。
+- 自动展开的父文件夹短暂高亮一次，方便确认展开位置。
+- 图库拖拽改用 56×56 小缩略图，偏移到鼠标右下方，留出清晰的落点。多选拖拽显示素材数量，保留全部原文件与分类移动功能。
+- 保留字体收藏、字体预览与导出、父文件夹下级素材去重计数，以及内置 Chrome / Edge 采集助手 0.2.9。
 
 适用于 Apple Silicon Mac 和 macOS 12 或更新版本。抠图需 macOS 14 或更新版本。
 &lt;/pre&gt;</description>
-      <pubDate>Wed, 11 Nov 2026 05:36:57 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.42-arm64.zip" length="15543665" type="application/octet-stream" sparkle:edSignature="cAvWMy9RW4MhdNu+S0KzfDcIO+7BtBgoWfGRAB+HGIq0cg1bIcqZqmsjioXHaDApksbuKMawlAmUpMT/d28sCw==" />
+      <pubDate>Wed, 11 Nov 2026 07:11:29 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.43-arm64.zip" length="15553781" type="application/octet-stream" sparkle:edSignature="NVC6ExVlYFFqN8IiStrGsLg8ezZc95mZWkgWNA5fejT0zC3jKD2QR3E5QYoOoI8S4jWlX6zO+r9t6gox3dX8CA==" />
     </item>
   </channel>
 </rss>
