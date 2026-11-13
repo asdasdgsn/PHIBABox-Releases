@@ -3,22 +3,21 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.46</title>
-      <sparkle:version>73</sparkle:version>
-      <sparkle:shortVersionString>0.4.46</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.47</title>
+      <sparkle:version>74</sparkle:version>
+      <sparkle:shortVersionString>0.4.47</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.46
+      <description>&lt;pre&gt;# PHIBABox 0.4.47
 
-- 修复顶部字体、文档、参考板工具组被原生拖放视图撑大和图标错位的问题。统一容器高度、图标尺寸、间距和选中背景。
-- 修复隐藏标题栏下重复计算安全区域导致的布局异常，新增真实原生窗口的多尺寸回归检查。
-- 文档区的 PDF、DOCX、Markdown、文字卡片和提示词卡片统一为 200×200，标题最多两行，封面在卡片内部等比显示，列宽不再随窗口拉大。
-- 收藏提示词时，使用已配置的 AI 服务自动生成简洁标题。已有提示词卡片可右键选择「AI 生成简洁标题」。
-- 标题生成失败时保留原题并提示重试。重复收藏或重新命名保留同一卡片、原图和完整提示词。
+- 将字体、文档、参考板入口移到顶部左侧，侧边栏收缩按钮位于最前方，常用模块集中排列。
+- 三个模块的选中边框统一为圆形，保持图标尺寸、按钮高度和间距一致。
+- 鼠标悬停模块图标时，在图标右侧展开对应名称；移开工具组后收回，展开时保持工具栏固定高度。
+- 窄窗口中工具组展开时为相邻筛选控件让出空间，避免名称重叠。
 
 适用于 Apple Silicon Mac 和 macOS 12 或更新版本。抠图需 macOS 14 或更新版本。内置 Chrome / Edge 采集助手 0.2.9。
 &lt;/pre&gt;</description>
-      <pubDate>Thu, 12 Nov 2026 05:46:35 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.46-arm64.zip" length="15581897" type="application/octet-stream" sparkle:edSignature="gvm6Bax6AsPMS3dabahmJCSFFHwi9keGVcYvBB5jI+Ld/xGbxI5fJhckCz0QYRMrSNreBfk//mYH7/kEjaljAQ==" />
+      <pubDate>Fri, 13 Nov 2026 05:43:55 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.47-arm64.zip" length="15587971" type="application/octet-stream" sparkle:edSignature="UP5RIZzEEQhwqMABgFAtWFS4X8BXszZmuRtXVpbZ1eKD2U31AbYbZJ05/Qvg2qRsKQE4ZZkJtrzGlYcSy42QDw==" />
     </item>
   </channel>
 </rss>
