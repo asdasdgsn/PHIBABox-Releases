@@ -1,7 +1,7 @@
 {
-  "version": "0.2.9",
-  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.2.9/PHIBABox-BrowserCapture-0.2.9.zip",
-  "bytes": 1719441,
-  "sha256": "41ac530d47edbec008dd72949fd967d6dc54ff5e19f08f3e76a90f7ba85ef725",
-  "notes": "修复部分网页拖图时出现收集框，但松手后没有提交采集的问题。支持网页拦截拖放事件和仅允许链接拖放的图片。更新扩展后请刷新网页。"
+  "version": "0.2.10",
+  "url": "https://phiba.jdad.online/downloads/PHIBABox-BrowserCapture-0.2.10.zip",
+  "bytes": 1720195,
+  "sha256": "38b5dc61da6a8428c59805564904a3bae7f45e7a66ddb21e0b1fcf3cf661363a",
+  "notes": "恢复插件更新或重新加载后已打开网页的采集脚本；状态查询临时断线自动重试，并显示具体错误。请将插件解压目录保存在固定位置。"
 }
