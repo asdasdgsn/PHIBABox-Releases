@@ -1,7 +1,7 @@
 {
-  "version": "0.3.0",
-  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.3.0/PHIBABox-BrowserCapture-0.3.0.zip",
-  "bytes": 1722156,
-  "sha256": "9a0c64f9553abda88bd9630f5049b4915708ca0868da4bad0c346ce9335a62d2",
-  "notes": "新增收藏当前网页，保存正文、已加载图片与样式的离线快照到独立网页模块。需要 PHIBABox 0.4.48 或更新版本。保留页面脚本自动恢复和临时断线重试。"
+  "version": "0.3.1",
+  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.3.1/PHIBABox-BrowserCapture-0.3.1.zip",
+  "bytes": 1722667,
+  "sha256": "078729cc4fd9196b7c6be269458e04dd38ec37e671e4b7b354abb6557aacee54",
+  "notes": "取消网页快照固定20 MB上限，大网页使用分块传输并保存到独立网页模块。需与PHIBABox0.4.50或更新版本配套使用。"
 }
