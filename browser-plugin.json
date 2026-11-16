@@ -1,7 +1,7 @@
 {
-  "version": "0.3.1",
-  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.3.1/PHIBABox-BrowserCapture-0.3.1.zip",
-  "bytes": 1722667,
-  "sha256": "078729cc4fd9196b7c6be269458e04dd38ec37e671e4b7b354abb6557aacee54",
-  "notes": "取消网页快照固定20 MB上限，大网页使用分块传输并保存到独立网页模块。需与PHIBABox0.4.50或更新版本配套使用。"
+  "version": "0.3.2",
+  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.3.2/PHIBABox-BrowserCapture-0.3.2.zip",
+  "bytes": 1725285,
+  "sha256": "5c6abc36d799f2264c8b4bbb3dedc946288facd3322bd94c1e4f0182c44ea1f0",
+  "notes": "# 采集助手 0.3.2\n\n- 为普通网页和 Pinterest 增加采集脚本健康检查；切换标签页、网页完成加载或恢复访问权限时，自动尝试恢复失效脚本。\n- 修复旧运行环境及中断初始化留下的标记阻止再次注入；恢复时清理旧监听器和采集浮层。\n- 插件面板显示当前网页是否可采集；权限不足时明确提示检查网站访问权限，Chrome 内部页显示受保护说明。\n- 后台由 Chrome 正常休眠并按需唤醒，不需要持续在后台运行，不新增权限。\n"
 }
