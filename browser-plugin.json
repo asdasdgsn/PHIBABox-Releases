@@ -1,7 +1,7 @@
 {
-  "version": "0.2.10",
-  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.2.10/PHIBABox-BrowserCapture-0.2.10.zip",
-  "bytes": 1720195,
-  "sha256": "38b5dc61da6a8428c59805564904a3bae7f45e7a66ddb21e0b1fcf3cf661363a",
-  "notes": "恢复插件更新或重新加载后已打开网页的采集脚本；状态查询临时断线自动重试，并显示具体错误。请将插件解压目录保存在固定位置。"
+  "version": "0.3.0",
+  "url": "https://github.com/asdasdgsn/PHIBABox-Releases/releases/download/browser-v0.3.0/PHIBABox-BrowserCapture-0.3.0.zip",
+  "bytes": 1722156,
+  "sha256": "9a0c64f9553abda88bd9630f5049b4915708ca0868da4bad0c346ce9335a62d2",
+  "notes": "新增收藏当前网页，保存正文、已加载图片与样式的离线快照到独立网页模块。需要 PHIBABox 0.4.48 或更新版本。保留页面脚本自动恢复和临时断线重试。"
 }
