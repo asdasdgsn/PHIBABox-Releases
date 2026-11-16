@@ -3,21 +3,21 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.47</title>
-      <sparkle:version>74</sparkle:version>
-      <sparkle:shortVersionString>0.4.47</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.48</title>
+      <sparkle:version>75</sparkle:version>
+      <sparkle:shortVersionString>0.4.48</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.47
+      <description>&lt;pre&gt;# PHIBABox 0.4.48
 
-- 将字体、文档、参考板入口移到顶部左侧，侧边栏收缩按钮位于最前方，常用模块集中排列。
-- 三个模块的选中边框统一为圆形，保持图标尺寸、按钮高度和间距一致。
-- 鼠标悬停模块图标时，在图标右侧展开对应名称；移开工具组后收回，展开时保持工具栏固定高度。
-- 窄窗口中工具组展开时为相邻筛选控件让出空间，避免名称重叠。
+- 新增截图识字，应用运行时按 Control + Option + Command + T 框选屏幕，使用本机能力识别中英文。识别结果可编辑、选择复制或一键复制全部，首次使用需屏幕录制权限。
+- 在顶部「字体、文档、参考板」工具组新增「网页」入口。可收藏网页正文、已加载的图片与样式，生成本地离线快照，支持标题或网址搜索及打开原网页。
+- 内置采集助手 0.3.0，新增「收藏当前网页」，需要与此版本桌面端配套使用。单页快照上限 20 MB，离线阅读关闭页面脚本和联网请求。
+- 包含采集助手 0.2.10 的页面脚本自动恢复、状态查询临时断线重试与详细通信错误提示。
 
-适用于 Apple Silicon Mac 和 macOS 12 或更新版本。抠图需 macOS 14 或更新版本。内置 Chrome / Edge 采集助手 0.2.9。
+适用于 Apple Silicon Mac，macOS 12 或更新版本。抠图需 macOS 14 或更新版本。
 &lt;/pre&gt;</description>
-      <pubDate>Fri, 13 Nov 2026 05:43:55 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.47-arm64.zip" length="15587971" type="application/octet-stream" sparkle:edSignature="UP5RIZzEEQhwqMABgFAtWFS4X8BXszZmuRtXVpbZ1eKD2U31AbYbZJ05/Qvg2qRsKQE4ZZkJtrzGlYcSy42QDw==" />
+      <pubDate>Mon, 16 Nov 2026 05:41:28 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.48-arm64.zip" length="15740473" type="application/octet-stream" sparkle:edSignature="xDeCS/QgMKy0WUd7sYThSfF2UnqGj9pQreOt+RJQT8kBrXA7JPOeCcAfnxmlMdhM+Bw6QxraayOQcM3FV8KFDw==" />
     </item>
   </channel>
 </rss>
