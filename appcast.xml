@@ -3,20 +3,20 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.53</title>
-      <sparkle:version>80</sparkle:version>
-      <sparkle:shortVersionString>0.4.53</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.54</title>
+      <sparkle:version>81</sparkle:version>
+      <sparkle:shortVersionString>0.4.54</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.53
+      <description>&lt;pre&gt;# PHIBABox0.4.54
 
-- 修正设备统计口径：首次启动独立记录激活，不再要求先在前台使用满 30 秒。
-- 日活按前台累计满 30 秒或浏览器采集成功统计，覆盖主应用在后台时保存图片、截图、视频和网页的使用。
-- 升级沿用随机安装标识，同一天重复采集不重复计设备；失败、取消、仅后台驻留或更新检查不计活跃。
-- 沿用最小化日级上报，不上传素材、网页地址或具体功能内容；普通用户设置不新增统计入口或开关。
-- 内置采集助手 0.3.2，保留 Pinterest 页面脚本恢复与按需唤醒修复。
+- 设置新增「意见反馈」，支持Bug、功能改善、新需求三类反馈。
+- 支持标题、详细描述、可选联系方式及最多3张PNG/JPEG截图，每张不超过10MB。
+- 提交失败保留填写内容，重复重试不创建相同反馈。
+- 官网管理后台新增反馈分类查看、私有截图预览及反馈删除。
+- 浏览器采集助手继续使用0.3.2。
 &lt;/pre&gt;</description>
-      <pubDate>Fri, 20 Nov 2026 08:57:52 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.53-arm64.zip" length="15914915" type="application/octet-stream" sparkle:edSignature="tkiV6Hnx96DlDwiWw/kvIsC92r1pMblM53W7TdXJ+1ar+hbfYVxSzTeAYW5u+8AtsveMvLIl1BUOpcjx+dkoDw==" />
+      <pubDate>Fri, 20 Nov 2026 09:34:12 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.54-arm64.zip" length="15967400" type="application/octet-stream" sparkle:edSignature="hZ2zNLJ/7wS5DOB3fF37gUTvnZY7uoaDFuxQsOlwMTW8zDDmW16ktQd3LNUG+lliSedS+gBQc2ONHhhmcRJqAQ==" />
     </item>
   </channel>
 </rss>
