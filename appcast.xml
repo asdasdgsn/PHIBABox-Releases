@@ -3,20 +3,20 @@
   <channel>
     <title>PHIBABox 更新</title>
     <item>
-      <title>PHIBABox 0.4.52</title>
-      <sparkle:version>79</sparkle:version>
-      <sparkle:shortVersionString>0.4.52</sparkle:shortVersionString>
+      <title>PHIBABox 0.4.53</title>
+      <sparkle:version>80</sparkle:version>
+      <sparkle:shortVersionString>0.4.53</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0.0</sparkle:minimumSystemVersion>
-      <description>&lt;pre&gt;# PHIBABox 0.4.52
+      <description>&lt;pre&gt;# PHIBABox 0.4.53
 
-- 收紧 AI 图片标签：每张图新生成的 AI 标签最多 3 个，优先概括主体、风格和用途，避免细碎标签。
-- 设置 → 标签管理新增“一键清理”，预览后移除全库仅关联 1～2 张图片的 AI 标签；保留同名手动标签、其他类型素材和全部文件。
-- 新增“AI 整理标签”：按名称生成统一命名与同义标签合并建议，可修改预览结果后统一应用。
-- 支持取消整理；资料库内容变化时拒绝应用旧建议，保存失败恢复原标签。
-- 延续截图识字、网页快照及私有管理员统计；浏览器采集助手保持 0.3.1。
+- 修正设备统计口径：首次启动独立记录激活，不再要求先在前台使用满 30 秒。
+- 日活按前台累计满 30 秒或浏览器采集成功统计，覆盖主应用在后台时保存图片、截图、视频和网页的使用。
+- 升级沿用随机安装标识，同一天重复采集不重复计设备；失败、取消、仅后台驻留或更新检查不计活跃。
+- 沿用最小化日级上报，不上传素材、网页地址或具体功能内容；普通用户设置不新增统计入口或开关。
+- 内置采集助手 0.3.2，保留 Pinterest 页面脚本恢复与按需唤醒修复。
 &lt;/pre&gt;</description>
-      <pubDate>Mon, 16 Nov 2026 09:04:34 +0000</pubDate>
-      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.52-arm64.zip" length="15898794" type="application/octet-stream" sparkle:edSignature="SV7ES6+74GgsmobP7uPuq7nZGMKRKngb95zEqaeyNphEnwk1CR16Fu+EDSglC/WiX05OLdP/RISS9eqxBWMPCg==" />
+      <pubDate>Fri, 20 Nov 2026 08:57:52 +0000</pubDate>
+      <enclosure url="https://phiba.jdad.online/downloads/PHIBABox-0.4.53-arm64.zip" length="15914915" type="application/octet-stream" sparkle:edSignature="tkiV6Hnx96DlDwiWw/kvIsC92r1pMblM53W7TdXJ+1ar+hbfYVxSzTeAYW5u+8AtsveMvLIl1BUOpcjx+dkoDw==" />
     </item>
   </channel>
 </rss>
